@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="914deb59-d86d-48e2-af36-b168c4ed3b20" name="DataBooth_rh" url="http://104.248.173.145">
+      <webServer id="97362087-8f02-42f0-b4b4-29692759d9a0" name="DataBooth_rh" url="http://104.248.173.145">
         <fileTransfer rootFolder="/home/peter" host="104.248.173.145" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
