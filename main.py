@@ -1,9 +1,9 @@
 # This is a sample Python script.
 
+from login_details import engine1
 from sqlalchemy import create_engine, select, MetaData, Table, and_, func
 from sqlalchemy.sql import text
 
-engine = create_engine("postgresql+psycopg2://chris:GENTELKiNTaL@104.248.173.145:5432/databooth_db")
 meta = MetaData(bind=None)
 
 class connect_to_db(database):
@@ -11,8 +11,10 @@ class connect_to_db(database):
         database,
         metadata,
         autoload=True,
-        autoload_with=engine
+        autoload_with=engine1
     )
+
+
 
 
 def print_hi(name):
