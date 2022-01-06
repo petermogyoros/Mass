@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="remoteDeploymentFS://&lt;97362087-8f02-42f0-b4b4-29692759d9a0&gt;/PyCharm/data_cleanup.py" dialect="GenericSQL" />
     <file url="PROJECT" dialect="PostgreSQL" />
   </component>
 </project>
